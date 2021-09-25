@@ -1,0 +1,209 @@
+.menu {
+	text-align: center;
+	position: fixed;
+	opacity: 0.8;
+	background-color: #ccc;
+	top: 0;
+	width: 100%;
+}
+.menu a {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	padding: 20px 40px;
+}
+.menu a:hover {
+	background-color: grey;
+}
+
+.header {
+	background-image: url(img/polygons.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 200px 0;
+	color: white;
+	background-position: top center;
+	margin-top: 58px;
+	background-attachment: fixed;
+}
+.header a {
+	background-color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: black;
+	text-decoration: none;
+
+}
+.header a:hover {
+	background-color: #b1b1b2;
+
+}
+.company {
+	max-width: 1200px;
+	padding: 40px 0;
+	margin: 0 auto;
+	text-align: justify;
+}
+.company h2 {
+	text-align: center;
+}
+.company img {
+	width: 400px;
+	float: right;
+	margin: 30px;
+	margin-top: 0;
+}
+.team {
+	text-align: center;
+}
+.member {
+	display: inline-block;
+	width: 20%;
+	margin: 20px 10px;
+	border: 2px solid grey;
+	box-shadow: 0 2px 5px grey;
+	padding: 15px;
+	text-align: left;
+}
+.member h3 {
+	font-weight: 400;
+	font-size: 24px;
+}
+.member img {
+	width: 100%;
+}
+.position {
+	opacity: 0.6;
+}
+.member a {
+	display: inline-block;
+	width: 100%;
+	background-color: #055b73;
+	border-radius: 10px;
+	text-decoration: none;
+	padding: 14px 0;
+	color: white;
+	text-align: center;
+}
+.prices {
+	background-color: grey;
+	text-align: center;
+	padding: 50px 0;
+}
+.prices p, .prices h2 {
+	color: white;
+}
+.prices .price {
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+}
+.prices .period{
+	opacity: 0.4;
+	color: black;
+}
+.tariff {
+	display: inline-block;
+	width: 30%;
+	min-width: 150px;
+	margin: 10px;
+	vertical-align: middle;
+	background-color: white;
+	padding: 0;
+}
+.tariff li {
+	list-style-type: none;
+	border-bottom: 1px solid #dddddd;
+	padding: 16px 0;
+}
+.tariff .tariff-name {
+	background-color: black;
+	color: white;
+	padding: 32px 0;
+	font-size: 24px;
+}
+.tariff .best {
+	padding: 48px 0;
+	background-color: #055b73;
+}
+.tariff li:last-child {
+	padding: 24px;
+	background-color: #f1f1f1;
+}
+.tariff a {
+	background-color: black;
+	color: white;
+	padding: 12px 24px;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.tariff a:hover {
+	background-color: white;
+	color: black;
+}
+.important {
+	font-weight: bold;
+}
+.contacts {
+	background-color: #f1f1f1;
+	padding: 40px 0;
+	text-align: center;		
+}
+.contact-adres {
+	background-image: url(img/address.png);
+
+}
+.contact-phone {
+	background-image: url(img/phone.png);
+
+}
+.contact-mail {
+	background-image: url(img/mail.png);
+
+}
+.contact-info {
+	background-repeat: no-repeat;
+	text-align: left;
+	padding-left: 30px;
+	background-position: left center;
+	background-size: 18px 18px;
+	margin-left: 5%;
+}
+.contacts input {
+	padding: 8px;
+	width: 90%;
+}
+.contacts button {
+	background-color: black;
+	color: white;
+	padding: 8px 16px;
+	border-radius: 15px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+.contacts button:hover {
+	background-color: white;
+	color: black;
+}
+.footer {
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
+/*двиг по x — смещение по горизонтали (обязательно)
+Сдвиг по y — смещение по вертикали (обязательно)
+Размытие — чем больше число, тем тень более плавная и размытая, если не задавать, то 0 (необязательно)
+Растяжение — число больше 0 растягивает тень, меньше сжимает (необязательно)
+Цвет — если не задать, то черный (необязательно)*/
+
+
+
+
